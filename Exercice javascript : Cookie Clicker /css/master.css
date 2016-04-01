@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.affichage {
+  position: relative;
+  left: 573px;
+  top: 134px;
+  width: 633px;
+  height:95px;
+
+  background-color: #cfcfcf;
+
+  color: #252525;
+  font-size: 77px;
+  text-align: center;
+}
+.bouton {
+  position: relative;
+  top: 127px;
+  left: 570px;
+  width: 17%;
+  height: 70px;
+
+  background-color: darkblue;
+
+  color: azure;
+}
+.multiplicateur {
+  position: relative;
+  top: 127px;
+  left: 570px;
+  width: 17%;
+  height: 70px;
+
+  background-color: darkred;
+
+  color: black;
+}
+.bouton, .multiplicateur {
+  display: inline-block;
+  vertical-align: top;
+}
